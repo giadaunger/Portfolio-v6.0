@@ -29,9 +29,9 @@ function Navbar() {
                         </button>
                     </div>
                     <div className={`sm:flex ${isOpen ? 'flex' : 'hidden'} sm:items-center`}>
-                        <NavLink to="/" className={`mr-5 ${location.pathname === '/' ? 'text-[#ff5277]' : ''}`}>Home</NavLink>
-                        <NavLink to="/projects" className={`mr-5 ${location.pathname === '/projects' ? 'text-[#ff5277]' : ''}`}>Projects</NavLink>
-                        <NavLink to="/contact" className={`${location.pathname === '/contact' ? 'text-[#ff5277]' : ''}`}>Contact</NavLink>
+                        <NavLink to="/" className={`mr-5 transition duration-300 hover:scale-110 ${location.pathname === '/' ? 'text-[#ff5277]' : ''}`}>Home</NavLink>
+                        <NavLink to="/projects" className={`mr-5 transition duration-300 hover:scale-110 ${location.pathname === '/projects' ? 'text-[#ff5277]' : ''}`}>Projects</NavLink>
+                        <NavLink to="/contact" className={`transition duration-300 hover:scale-110 ${location.pathname === '/contact' ? 'text-[#ff5277]' : ''}`}>Contact</NavLink>
                     </div>
                 </div>
             </div>
