@@ -20,25 +20,21 @@ function Certificates() {
     const [currentImage, setCurrentImage] = useState(0);
 
     const handlePrev = () => {
-      setCurrentImage((prev) => (prev === 0 ? images.length - 1 : prev - 1));
+        setCurrentImage((prev) => (prev === 0 ? images.length - 1 : prev - 1));
     };
-  
+
     const handleNext = () => {
-      setCurrentImage((prev) => (prev === images.length - 1 ? 0 : prev + 1));
+        setCurrentImage((prev) => (prev === images.length - 1 ? 0 : prev + 1));
     };
     return (
         <div>
-            <h1>CodeCademy Certificates</h1>
-
-            <div>
-                <button className="" onClick={handlePrev}>
-                    Prev
-                </button>
-                <button className="text-black" onClick={handleNext}>
-                    Next
-                </button>
-                <img className="mx-auto" src={images[currentImage]} alt={`Slide ${currentImage + 1}`} />
-            </div>
+            <button className="" onClick={handlePrev}>
+                Prev
+            </button>
+            <button className="text-black" onClick={handleNext}>
+                Next
+            </button>
+            <img className="mx-auto" src={images[currentImage]} alt={`Slide ${currentImage + 1}`} />
         </div>
     );
 }
