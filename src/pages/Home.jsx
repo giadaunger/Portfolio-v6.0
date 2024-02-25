@@ -6,7 +6,7 @@ import Certificates from '../components/Certificates'
 
 function Home() {
   return (
-    <div>
+    <div className="text-[#ADA7AD]">
       <div className="md:w-2/3 w-11/12 mx-auto p-6 mt-20 mb-20">
         <Banner />
         <ResumeBtn />

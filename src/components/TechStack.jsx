@@ -2,7 +2,7 @@ import React from 'react';
 
 function TechStack() {
   return (
-    <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-9">
+    <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-9 text-[#ADA7AD]">
       <div className="border border-[#ADA7AD] p-2 h-20 flex justify-center items-center">
         <p className="text-center">Javascript</p>
       </div>

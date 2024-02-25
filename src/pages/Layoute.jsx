@@ -6,7 +6,7 @@ import Footer from '../components/Footer';
 
 function Layout() {
   return (
-    <div className="flex flex-col min-h-screen">
+    <div className="flex flex-col min-h-screen bg-[#0e141b]">
       <Navbar />
       <div className="flex-auto">
         <Outlet />

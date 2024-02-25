@@ -15,7 +15,7 @@ function ResumeBtn() {
         <div>
             <button
                 onClick={handleDownload}
-                className="border border-[#ADA7AD] p-2 flex mx-auto w-1/5 justify-center">
+                className="border border-[#ADA7AD] p-2 flex mx-auto w-1/5 justify-center text-[#ADA7AD]">
                 Download resume
             </button>
         </div>
