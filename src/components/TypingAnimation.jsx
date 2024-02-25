@@ -37,7 +37,7 @@ function TypingAnimation() {
 
   return (
     <div className="text-[#ff5277]">
-      <h1 className="text-6xl font-bold mb-4">
+      <h1 className="text-5xl md:text-6xl font-bold mb-4">
         {typedText}
         <span className="animate-blink">|</span>
       </h1>
