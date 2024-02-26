@@ -4,8 +4,8 @@ import '../textAnimation.css'
 function TypingAnimation() {
   const [typedText, setTypedText] = useState('');
   const textToType = 'Giada Unger';
-  const typingSpeed = 150; // Adjust typing speed as needed
-  const delayBetweenAnimations = 3000; // Adjust delay between animations in milliseconds
+  const typingSpeed = 150; 
+  const delayBetweenAnimations = 3000; 
 
   useEffect(() => {
     let currentIndex = 0;

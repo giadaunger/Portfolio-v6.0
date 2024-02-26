@@ -15,7 +15,7 @@ function ResumeBtn() {
         <div>
             <button
                 onClick={handleDownload}
-                className="border border-[#ADA7AD] p-2 flex mx-auto w-1/2 md:w-1/5 justify-center font-semibold text-[#ADA7AD] hover:text-[#ff5277] hover:border-[#ff5277] transition duration-300 hover:scale-110">
+                className="border border-[#ADA7AD] rounded-md p-2 flex mx-auto w-1/2 md:w-1/5 justify-center font-semibold text-[#ADA7AD] hover:text-[#ff5277] hover:border-[#ff5277] transition duration-300 hover:scale-110">
                 Download resume
             </button>
         </div>
